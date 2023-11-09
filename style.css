@@ -26,5 +26,31 @@
     gap: 20px;
 }
 
+#ucontent img,
+#setting img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+#dashboard img{
+    width: 50px;
+    
+}
+
+#dashboard{
+    display: flex;
+    flex-direction: row;
+}
+
+#ucontent div,
+#setting div{
+    padding: 5px;
+}
+
+#ucontent{
+    margin-bottom: 30px;
+}
+
+
 
 
