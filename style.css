@@ -23,6 +23,8 @@
 
 }
 
+
+
 .header{
     grid-column: 2/3;
     border: solid 2px red;
@@ -67,14 +69,14 @@
     gap: 20px;
 }
 
-#ucontent img,
-#setting img{
+
+.sidebar svg{
     width: 1.2em;
     margin-right: 10px;
 }
 
 
-#dashboard img{
+#dashboard svg{
     width: 50px;
     
 }
@@ -95,9 +97,10 @@
     margin-bottom: 30px;
 }
 
-.sidebar a{
+.sidebar a,
+.sidebar h1{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #searchimg{
@@ -113,6 +116,10 @@
 #project,
 #trend{
     padding: 30px;
+}
+
+.sidebar svg{
+    color: white;
 }
 
 
