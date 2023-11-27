@@ -86,11 +86,14 @@
     flex-direction: row;
 }
 
-#ucontent div,
-#setting div{
+.sidebar a{
     padding: 0.5rem;
     display: flex;
     font-size: var(--fontSize);
+}
+
+.sidebar a:hover{
+    text-decoration: underline;
 }
 
 #ucontent{
